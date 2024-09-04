@@ -1,0 +1,40 @@
+Windows Registry Editor Version 5.00
+
+;           Developed by https://github.com/tintoser
+
+
+; !!!!!!!!  If Changing the path then keep in mind the \\ in file path !!!!!!!!!!!!!!!!!!!!!!
+
+;           For defining which version of PSCAD will be opened by-default or on rightclick
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PSCAD.EMTDC.x4\Shell\Open\Command]
+@="C:\\Program Files (x86)\\PSCAD46\\bin\\win64\\pscad.exe DCLK \"%1\""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PSCAD.EMTDC\Shell\Open\Command]
+@="C:\\Program Files (x86)\\PSCAD46\\bin\\win64\\pscad.exe DCLK \"%1\""
+
+;======================================END====================================================
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PSCAD.EMTDC.x4\Shell\Open PSCAD]
+"Subcommands"=""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PSCAD.EMTDC\Shell\Open PSCAD]
+"Subcommands"=""
+
+
+;                       For Opening with PSCAD 4.6
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PSCAD.EMTDC.x4\Shell\Open PSCAD\Shell\4.6\Command]
+@="C:\\Program Files (x86)\\PSCAD46\\bin\\win64\\pscad.exe DCLK \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PSCAD.EMTDC\Shell\Open PSCAD\Shell\4.6\Command]
+@="C:\\Program Files (x86)\\PSCAD46\\bin\\win64\\pscad.exe DCLK \"%1\""
+
+;========================================END==================================================
+
+
+;                       For Opening with PSCAD 5.0
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PSCAD.EMTDC.x4\Shell\Open PSCAD\Shell\5.0\Command]
+@="C:\\Program Files (x86)\\PSCAD50\\bin\\win64\\pscad.exe DCLK \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PSCAD.EMTDC\Shell\Open PSCAD\Shell\5.0\Command]
+@="C:\\Program Files (x86)\\PSCAD50\\bin\\win64\\pscad.exe DCLK \"%1\""
+
+;========================================END==================================================
