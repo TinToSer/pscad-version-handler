@@ -26,6 +26,7 @@ Gives option to set which PSCAD version to open by-default and which on demand, 
 
 ### For windows 11, to have full Right Click Context menu
  - Double click win_10_style_right_click_menu_in_win11.reg
+ - Restart
 
 ## Steps:- 
   - Double click the 'setting.reg' file
